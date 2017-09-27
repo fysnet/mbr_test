@@ -1,3 +1,4 @@
+; assembled with NBASM  http://www.fysnet.net/newbasic.htm
 
 outfile 'test.bin'    ; name the file to create
 
