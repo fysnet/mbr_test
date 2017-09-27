@@ -192,7 +192,7 @@ int main(int argc, char *argv[]) {
   fclose(fp);
   
   // open our temp vbr file
-  if ((fp = fopen("E:\\bochs\\mtools\\mbrtest\\test.bin", "rb")) == NULL) {
+  if ((fp = fopen("test.bin", "rb")) == NULL) {
     printf("Error opening test.bin file\n");
     fclose(targ);
     return 4;
